@@ -10,7 +10,7 @@ error_reporting(0);
 
     defined("View_PATH")
         ||
-        define("View_PATH",ROOT_PATH.DS.'views');
+        define("View_PATH",ROOT_PATH.DS.'demo'.DS.'views');
 
     defined("_View")
         ||

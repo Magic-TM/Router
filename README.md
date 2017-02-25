@@ -18,9 +18,8 @@ PHP Architecture -> MVC
 
 ## Installation
 
-Download Project *.zip -> extract 
 
-got to library\conf.php    Customize it
+got to src\magic\conf.php    Customize it
 
 
 ## Code Example
@@ -55,7 +54,7 @@ All Incoming Urls With Get
 
 All Load Methods
 	// for Example : Load View file / View File name   ViewName.magic.php
-	  **Load::viewer("ViewName");**
+	  **Helper::viewer("ViewName");**
 
 
 ## Soon
