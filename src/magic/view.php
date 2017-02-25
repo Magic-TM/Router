@@ -5,7 +5,7 @@
  * Date: 12/08/2016
  * Time: 11:25 PM
  */
-class View extends Base{
+class View {
 
     private $vars = array();
 

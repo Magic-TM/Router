@@ -1,8 +1,10 @@
 <?php
- 
+
+
+
+
 class Router {
 	static private $controller,$action,$param;
-	static private $url;
 	static public $IsRoute;
 
 
@@ -24,7 +26,6 @@ class Router {
             } else {
                 die("Action ".self::$action." not found in $controller Class");
             }
-
         }
     }
 
@@ -210,7 +211,7 @@ class Router {
     {
         if(self::$IsRoute != 1)
         {
-            Load::viewer($redirect);
+            viewer($redirect);
         }
     }
 }
