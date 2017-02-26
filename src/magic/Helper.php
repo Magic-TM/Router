@@ -12,6 +12,7 @@ abstract class Helper
 				(Strlower == 1) ? strtolower($string) : $string
 		);
 	}
+	
 	static public function Fixview($view)
     {
         return str_replace(".",DS,$view);

@@ -16,6 +16,7 @@ class Template{
         $this->contect = $contect;
         $this->var = $var;
     }
+    
     function convertor()
     {
         $cls = get_class_methods(new Template($this->contect));

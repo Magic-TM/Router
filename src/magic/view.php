@@ -13,6 +13,7 @@ class View {
         $this->vars[$var] = $data;
     }
 
+    
     function render($view) {
         Helper::Fixview($view);
         extract($this->vars);

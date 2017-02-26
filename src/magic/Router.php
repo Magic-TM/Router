@@ -206,6 +206,7 @@ class Router {
             unset($parm[$count-1]);
         return implode("/",$parm);
     }
+    
 
     static public function Run($redirect = "404")
     {

@@ -8,6 +8,7 @@ error_reporting(0);
    define("ROOT_PATH",realpath(realpath(dirname(__FILE__)). DS . ".." . DS));
 
 
+
     defined("View_PATH")
         ||
         define("View_PATH",ROOT_PATH.DS.'demo'.DS.'views');
@@ -15,6 +16,13 @@ error_reporting(0);
     defined("_View")
         ||
         define("_View",".magic");
+
+
+        /*-------   Controllers Directory (This is All your Actions , Processing and other classes and ... )   -------*/
+        defined("Controllers_PATH")
+            ||
+            define("Controllers_PATH",ROOT_PATH.DS.'demo'.DS.'controller');
+
 
     /*-------   Library Directory (All your defined php files to include to all project )   -------*/
    defined("Library_PATH")
@@ -47,6 +55,7 @@ error_reporting(0);
 		realpath(ROOT_PATH),
         realpath(View_PATH),
         realpath(Library_PATH),
+        realpath(Controllers_PATH),
 		get_include_path(),
    )));
 
